@@ -51,7 +51,7 @@ import { TaskItem } from '../models/task.model';
             </div>
           </div>
           <div class="table-responsive">
-            <table class="table table-hover align-middle">
+            <table class="table table-hover align-middle task-table">
               <thead class="table-light">
                 <tr>
                   <th>Title</th>

@@ -1,0 +1,1 @@
+{"ast":null,"code":"/** Polyfills for the Taskify client */\nimport 'zone.js';","map":{"version":3,"names":[],"sources":["C:\\Adobe\\Taskify.Api\\Taskify.Client\\src\\polyfills.ts"],"sourcesContent":["/** Polyfills for the Taskify client */\r\nimport 'zone.js';\r\n"],"mappings":"AAAA;AACA,OAAO,SAAS","ignoreList":[]},"metadata":{},"sourceType":"module","externalDependencies":[]}
