@@ -3,11 +3,12 @@ import { Router, RouterModule } from '@angular/router';
 import { AuthService } from './services/auth.service';
 import { Observable } from 'rxjs';
 import { AsyncPipe } from '@angular/common';
+import { ToastComponent } from './ui/toast.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterModule, AsyncPipe],
+  imports: [RouterModule, AsyncPipe, ToastComponent],
   template: `
     <div class="app-container">
       <nav class="navbar navbar-light bg-white mb-4 shadow-sm rounded">
@@ -26,6 +27,7 @@ import { AsyncPipe } from '@angular/common';
         </div>
       </nav>
       <router-outlet></router-outlet>
+      <app-toast></app-toast>
     </div>
   `
 })
